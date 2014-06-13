@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/JRG-Developer/UIView-AORefreshFont.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Joshua Greene" => "jrg.developer@gmail.com" }
-  s.source   	   = { :git => https://github.com/JRG-Developer/UIView-AORefreshFont.git", :tag => "#{s.version}"}
+  s.source   	   = { :git => "https://github.com/JRG-Developer/UIView-AORefreshFont.git", :tag => "#{s.version}"}
   s.framework    = "UIKit"
   s.requires_arc = true
   s.source_files = "UIView+AORefreshFont/*.{h,m}"
