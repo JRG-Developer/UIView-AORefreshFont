@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "6.0"
   s.name         = "UIView+AORefreshFont"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "UIView+AORefreshFont is a category on UIView that provides a convenience method for resetting the dynamic type font of a text-input view."
 
   s.homepage     = "https://github.com/JRG-Developer/UIView-AORefreshFont.git"

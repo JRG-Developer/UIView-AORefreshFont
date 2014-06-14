@@ -1,4 +1,6 @@
-# UIView+AORefreshFont
+# UIView+AORefresh
+
+[![Build Status](https://travis-ci.org/JRG-Developer/UIView-AORefreshFont.svg?branch=master)](https://travis-ci.org/JRG-Developer/UIView-AORefreshFont)
 
 `UIView+AORefreshFont` is a category on `UIView` that provides a convenience method for resetting the dynamic type font of a text-input view.
  
