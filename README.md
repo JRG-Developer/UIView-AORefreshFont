@@ -1,4 +1,4 @@
-# UIView+AORefresh
+# UIView+AORefreshFont
 
 [![Build Status](https://travis-ci.org/JRG-Developer/UIView-AORefreshFont.svg?branch=master)](https://travis-ci.org/JRG-Developer/UIView-AORefreshFont)
 
@@ -46,4 +46,4 @@ If you attempt to call `AORefreshFont` on a view that doesn't have a `font` prop
 
 ## License
 
-`UIView+AORefreshFont.h` is available under the MIT license (see the `LICENSE` file for more details).
+`UIView+AORefreshFont` is available under the MIT license (see the `LICENSE` file for more details).
