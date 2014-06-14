@@ -1,4 +1,4 @@
-# UIView+AORefresh
+# UIView+AORefreshFont
 
 `UIView+AORefreshFont` is a category on `UIView` that provides a convenience method for resetting the dynamic type font of a text-input view.
  
