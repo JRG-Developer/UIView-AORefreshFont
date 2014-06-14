@@ -1,8 +1,8 @@
-# UIView+AORefresh.h
+# UIView+AORefresh
 
- `UIView+AORefreshFont` provides a convenience method for resetting the dynamic type font of a `UIView` that responds to `@selector(font)`.
+`UIView+AORefreshFont` is a category on `UIView` that provides a convenience method for resetting the dynamic type font of a text-input view.
  
-This category is useful, for example, in "refreshing" the font of a view after receiving the `UIContentSizeCategoryDidChangeNotification` notification.
+This is useful, for example, in "refreshing" the font of a view after receiving the `UIContentSizeCategoryDidChangeNotification` notification.
 
 ## Installation with CocoaPods
 
