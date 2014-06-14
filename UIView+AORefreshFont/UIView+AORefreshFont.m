@@ -48,7 +48,7 @@
   }
   
   UIFont *font = [UIFont preferredFontForTextStyle:textStyle];    
-  [((id)self) setFont:font];
+  [self performSelector:@selector(setFont:) withObject:font];
 }
 
 @end
