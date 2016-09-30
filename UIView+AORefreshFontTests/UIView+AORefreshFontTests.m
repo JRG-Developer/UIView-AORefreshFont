@@ -117,6 +117,9 @@ const char AOSetFontKey;
   // then
   XCTAssertNoThrow([label AORefreshFont]);
   assertThat([label associatedValueForKey:&AOSetFontKey], nilValue());
+    
+  // clean up
+  [self swapSetFontMethodForClass:[UILabel class]];
 }
 
 @end
