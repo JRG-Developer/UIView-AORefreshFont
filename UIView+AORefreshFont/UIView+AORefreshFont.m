@@ -37,18 +37,19 @@
 
 - (void)AORefreshFont
 {
-  if (![self respondsToSelector:@selector(font)]) {
-    return;
-  }
-  
-  NSString *textStyle = [[(id)self font] AOTextStyle];
-  
-  if (textStyle.length == 0) {
-    return;
-  }
-  
-  UIFont *font = [UIFont preferredFontForTextStyle:textStyle];    
-  [self performSelector:@selector(setFont:) withObject:font];
+    if (![self respondsToSelector:@selector(font)]) {
+        return;
+    }
+    
+    UIFont *oldFont = [self performSelector:@selector(font)];
+    NSString *textStyle = [oldFont AOTextStyle];
+    
+    if (textStyle.length == 0 || [textStyle isEqualToString:@"CTFontRegularUsage"]) {
+        return;
+    }
+    
+    UIFont *font = [UIFont preferredFontForTextStyle:textStyle];
+    [self performSelector:@selector(setFont:) withObject:font];    
 }
 
 @end

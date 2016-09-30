@@ -7,6 +7,6 @@ end
 
 target "UIView+AORefreshFontTests" do
   pod 'AOTestCase', '~> 1.0'
-  pod 'OCMockito', '~> 1.3'  
+  pod 'OCMockito', '~> 4.0'  
 end
 

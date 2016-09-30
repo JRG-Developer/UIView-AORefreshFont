@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CB1387FB5A122A313C1500A /* libPods-UIView+AORefreshFontTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C64B54CEEBF1C4C14DACCA6 /* libPods-UIView+AORefreshFontTests.a */; };
 		44D4BE9B194BAF8900E65B24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D4BE9A194BAF8900E65B24 /* Foundation.framework */; };
 		44D4BEA9194BAF8900E65B24 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D4BEA8194BAF8900E65B24 /* XCTest.framework */; };
 		44D4BEAA194BAF8900E65B24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D4BE9A194BAF8900E65B24 /* Foundation.framework */; };
@@ -17,7 +18,7 @@
 		44D4BEC4194BB00700E65B24 /* UIView+AORefreshFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D4BEC3194BB00700E65B24 /* UIView+AORefreshFontTests.m */; };
 		44D4BECA194BB3C900E65B24 /* UIFont+AOTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D4BEC9194BB3C900E65B24 /* UIFont+AOTextStyle.m */; };
 		44D4BECC194BB47B00E65B24 /* UIFont+AOTextStyleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D4BECB194BB47B00E65B24 /* UIFont+AOTextStyleTests.m */; };
-		5454265AE3DC4DD5A1CB20FF /* libPods-UIView+AORefreshFontTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FD6AF5FAAA4BD6B2E87541 /* libPods-UIView+AORefreshFontTests.a */; };
+		BFED0F7E5321A4E9DE058415 /* libPods-UIView+AORefreshFont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB829347FBF4F5B17BA7E56 /* libPods-UIView+AORefreshFont.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		02FD6AF5FAAA4BD6B2E87541 /* libPods-UIView+AORefreshFontTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIView+AORefreshFontTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F50E7742983F2CC44D027F /* Pods-UIView+AORefreshFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIView+AORefreshFont.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIView+AORefreshFont/Pods-UIView+AORefreshFont.release.xcconfig"; sourceTree = "<group>"; };
+		1C64B54CEEBF1C4C14DACCA6 /* libPods-UIView+AORefreshFontTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIView+AORefreshFontTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D4BE97194BAF8900E65B24 /* libUIView+AORefreshFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIView+AORefreshFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D4BE9A194BAF8900E65B24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D4BE9E194BAF8900E65B24 /* UIView+AORefreshFont-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AORefreshFont-Prefix.pch"; sourceTree = "<group>"; };
@@ -58,7 +60,10 @@
 		44D4BEC8194BB3C900E65B24 /* UIFont+AOTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+AOTextStyle.h"; sourceTree = "<group>"; };
 		44D4BEC9194BB3C900E65B24 /* UIFont+AOTextStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+AOTextStyle.m"; sourceTree = "<group>"; };
 		44D4BECB194BB47B00E65B24 /* UIFont+AOTextStyleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+AOTextStyleTests.m"; sourceTree = "<group>"; };
-		56CECD11C1664B9D89F9F372 /* Pods-UIView+AORefreshFontTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIView+AORefreshFontTests.xcconfig"; path = "Pods/Pods-UIView+AORefreshFontTests.xcconfig"; sourceTree = "<group>"; };
+		7BF18533A76E6836930047C9 /* Pods-UIView+AORefreshFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIView+AORefreshFont.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIView+AORefreshFont/Pods-UIView+AORefreshFont.debug.xcconfig"; sourceTree = "<group>"; };
+		B3109DF25C192B4EC2700936 /* Pods-UIView+AORefreshFontTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIView+AORefreshFontTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIView+AORefreshFontTests/Pods-UIView+AORefreshFontTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF036A215C9448D927FD89AF /* Pods-UIView+AORefreshFontTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIView+AORefreshFontTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIView+AORefreshFontTests/Pods-UIView+AORefreshFontTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEB829347FBF4F5B17BA7E56 /* libPods-UIView+AORefreshFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIView+AORefreshFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44D4BE9B194BAF8900E65B24 /* Foundation.framework in Frameworks */,
+				BFED0F7E5321A4E9DE058415 /* libPods-UIView+AORefreshFont.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +84,24 @@
 				44D4BEAF194BAF8900E65B24 /* libUIView+AORefreshFont.a in Frameworks */,
 				44D4BEAC194BAF8900E65B24 /* UIKit.framework in Frameworks */,
 				44D4BEAA194BAF8900E65B24 /* Foundation.framework in Frameworks */,
-				5454265AE3DC4DD5A1CB20FF /* libPods-UIView+AORefreshFontTests.a in Frameworks */,
+				2CB1387FB5A122A313C1500A /* libPods-UIView+AORefreshFontTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		206FD5CAF6E3E28D347C5308 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BF18533A76E6836930047C9 /* Pods-UIView+AORefreshFont.debug.xcconfig */,
+				05F50E7742983F2CC44D027F /* Pods-UIView+AORefreshFont.release.xcconfig */,
+				CF036A215C9448D927FD89AF /* Pods-UIView+AORefreshFontTests.debug.xcconfig */,
+				B3109DF25C192B4EC2700936 /* Pods-UIView+AORefreshFontTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		44D4BE8E194BAF8800E65B24 = {
 			isa = PBXGroup;
 			children = (
@@ -92,7 +109,7 @@
 				44D4BEB0194BAF8900E65B24 /* UIView+AORefreshFontTests */,
 				44D4BE99194BAF8900E65B24 /* Frameworks */,
 				44D4BE98194BAF8900E65B24 /* Products */,
-				56CECD11C1664B9D89F9F372 /* Pods-UIView+AORefreshFontTests.xcconfig */,
+				206FD5CAF6E3E28D347C5308 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,7 +128,8 @@
 				44D4BE9A194BAF8900E65B24 /* Foundation.framework */,
 				44D4BEA8194BAF8900E65B24 /* XCTest.framework */,
 				44D4BEAB194BAF8900E65B24 /* UIKit.framework */,
-				02FD6AF5FAAA4BD6B2E87541 /* libPods-UIView+AORefreshFontTests.a */,
+				DEB829347FBF4F5B17BA7E56 /* libPods-UIView+AORefreshFont.a */,
+				1C64B54CEEBF1C4C14DACCA6 /* libPods-UIView+AORefreshFontTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44D4BEBA194BAF8900E65B24 /* Build configuration list for PBXNativeTarget "UIView+AORefreshFont" */;
 			buildPhases = (
+				5790BA55C0AAC7F858A73576 /* [CP] Check Pods Manifest.lock */,
 				44D4BE93194BAF8900E65B24 /* Sources */,
 				44D4BE94194BAF8900E65B24 /* Frameworks */,
 				44D4BE95194BAF8900E65B24 /* CopyFiles */,
+				70F22C385355B427E30E6706 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,11 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44D4BEBD194BAF8900E65B24 /* Build configuration list for PBXNativeTarget "UIView+AORefreshFontTests" */;
 			buildPhases = (
-				D6F6351483854B3791F3CA89 /* Check Pods Manifest.lock */,
+				7817A3A99D2FE1E50DE0E9F0 /* [CP] Check Pods Manifest.lock */,
 				44D4BEA3194BAF8900E65B24 /* Sources */,
 				44D4BEA4194BAF8900E65B24 /* Frameworks */,
 				44D4BEA5194BAF8900E65B24 /* Resources */,
-				C9C7ED93DDDA48538D6C5452 /* Copy Pods Resources */,
+				85E72E0FF5A3FFC21DD57C35 /* [CP] Embed Pods Frameworks */,
+				F18533AE1AAF02052EFBED6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,7 +222,7 @@
 		44D4BE8F194BAF8800E65B24 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "App-Order, LLC";
 			};
 			buildConfigurationList = 44D4BE92194BAF8900E65B24 /* Build configuration list for PBXProject "UIView+AORefreshFont" */;
@@ -234,34 +255,79 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C9C7ED93DDDA48538D6C5452 /* Copy Pods Resources */ = {
+		5790BA55C0AAC7F858A73576 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-UIView+AORefreshFontTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D6F6351483854B3791F3CA89 /* Check Pods Manifest.lock */ = {
+		70F22C385355B427E30E6706 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIView+AORefreshFont/Pods-UIView+AORefreshFont-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7817A3A99D2FE1E50DE0E9F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85E72E0FF5A3FFC21DD57C35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIView+AORefreshFontTests/Pods-UIView+AORefreshFontTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18533AE1AAF02052EFBED6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIView+AORefreshFontTests/Pods-UIView+AORefreshFontTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -320,12 +386,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -338,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -357,19 +429,24 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -377,6 +454,7 @@
 		};
 		44D4BEBB194BAF8900E65B24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF18533A76E6836930047C9 /* Pods-UIView+AORefreshFont.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/UIView_AORefreshFont.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -389,6 +467,7 @@
 		};
 		44D4BEBC194BAF8900E65B24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F50E7742983F2CC44D027F /* Pods-UIView+AORefreshFont.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/UIView_AORefreshFont.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -401,7 +480,7 @@
 		};
 		44D4BEBE194BAF8900E65B24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56CECD11C1664B9D89F9F372 /* Pods-UIView+AORefreshFontTests.xcconfig */;
+			baseConfigurationReference = CF036A215C9448D927FD89AF /* Pods-UIView+AORefreshFontTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -415,6 +494,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "UIView+AORefreshFontTests/UIView+AORefreshFontTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-order.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -422,7 +502,7 @@
 		};
 		44D4BEBF194BAF8900E65B24 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56CECD11C1664B9D89F9F372 /* Pods-UIView+AORefreshFontTests.xcconfig */;
+			baseConfigurationReference = B3109DF25C192B4EC2700936 /* Pods-UIView+AORefreshFontTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -432,6 +512,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIView+AORefreshFont/UIView+AORefreshFont-Prefix.pch";
 				INFOPLIST_FILE = "UIView+AORefreshFontTests/UIView+AORefreshFontTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-order.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
